@@ -1,3 +1,5 @@
-# GoLang-Labo in Docker
+GoLang-Labo in Docker
+
+build/cmd/hello/main.go にテンプレートコードが存在します
 
 コンテナの起動、削除、操作、停止をコントロールできるシェルスクリプト付き！！！
