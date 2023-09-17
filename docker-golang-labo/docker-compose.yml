@@ -1,0 +1,14 @@
+version: '3'
+services:
+  golang-labo:
+    container_name: golang-labo
+    build:
+      context: .
+      dockerfile: ./build/Dockerfile
+    volumes:
+      - ./golang-labo:/go/src/golang-labo
+    tty: true
+    env_file:
+      - ./build/.go_env
+    environment:
+      - TZ=Asia/Tokyo
